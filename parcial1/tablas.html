@@ -1,0 +1,103 @@
+<html>
+<!-- Dennis Aguirre
+     14 feb 2023
+-->
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tablas</title>
+        
+        <style>
+            ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: blue;
+            }
+
+            li {
+            float: left;
+            }
+
+            li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 16px;
+            text-decoration: none;
+            }
+
+            li a:hover {
+            background-color: yellow;
+            color:black;
+            }
+            table, th, td {
+                border: 1px solid SaddleBrown;
+                border-collapse: collapse;
+                border-radius: 0px;
+                border-style:groove;
+                border-spacing: 120px;
+            }
+            th {
+                background-color: Tomato;
+                color: White;
+                padding: 15px;
+            }
+            td {
+                background-color: DodgerBlue;
+                text-align: right;
+                padding: 5px;
+            }
+
+            table tr td:nth-child(1) {
+                text-align: left;
+            }
+            table tr td:nth-child(2) {
+                text-align: left;
+            }
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="bio.html">Mi biografía</a></li>
+            <li><a href="music.html">Rolas mias</a></li>
+            <li><a href="tablas.html">El ejercicio de tablas</a></li>
+          </ul>
+        <h1>Ejemplo de tablas</h1>
+        <p>
+            <table style="width:100%">
+                <caption>Calificaciones 4AM Programación</caption>
+                <tr>
+                    
+                    <th colspan="2"; >Materias</th> 
+                    
+                    <th>Parcial 1</th><th>Parcial 2</th><th>Parcial 3</th>
+                
+                </tr>
+                <tr> 
+                    <td colspan="5";>Programación</td>
+                </tr>
+                <tr> <td> 2 </td>
+                    <td>Páginas Web</td><td>9</td><td>9</td><td>10</td>
+                </tr>
+                <tr> <td> 3 </td>
+                    <td>Programación Cliente</td><td>8</td><td>9</td><td>8</td>
+                </tr>
+                <tr> <td> 2 </td>
+                    <td>Física</td><td>9</td><td>9</td><td>10</td>
+                </tr>
+                <tr> <td> 3 </td>
+                    <td>Inglés</td><td>8</td><td>9</td><td>8</td>
+                </tr>
+                <tr> <td> 4 </td>
+                    <td>Cálculo</td><td>10</td><td>9</td><td>10</td>
+                </tr>
+                <tr> <td> 5 </td>
+                    <td>Ecología</td><td>8</td><td>9</td><td>10</td>
+                </tr>
+
+            </table>
+        </p>
+    </body>
+</html>
